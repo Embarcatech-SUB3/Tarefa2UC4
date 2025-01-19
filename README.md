@@ -32,7 +32,7 @@ Os comandos para controle dos periféricos são enviados pela interface serial U
 ### Requisitos
 
 - **Hardware necessário**:
-  1. Ferramenta educacional BitDogLab (versão 6.3).
+  1. Ferramenta educacional BitDogLab.
   2. Cabo micro-USB para USB-A.
   3. Computador pessoal.
 
