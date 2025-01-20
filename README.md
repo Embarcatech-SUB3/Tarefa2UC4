@@ -4,6 +4,7 @@ Este repositório contém a solução para a **Atividade 2**: controle de pinos 
 
 - Leonardo Bonifácio: https://github.com/Embarcatech-SUB3/Tarefa2UC4/tree/Leonardo-Bonif%C3%A1cio
 - Maria Eduarda Campos: https://github.com/Embarcatech-SUB3/Tarefa2UC4/tree/Maria-Eduarda-Campos
+- Gabriel Benicio Santos Almeoida: https://github.com/Embarcatech-SUB3/Tarefa2UC4/blob/09faaa69543d0acda042f858af0b01f5cd4ea19e/TAREFA2UC4
 
 ### Vídeo de demonstração:
 
