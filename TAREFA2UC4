@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include "pico/stdlib.h"
+#include "gpio_control.h"
+
+int main() {
+    stdio_init_all();
+    inicializa_gpio();
+
+    while (true) {
+        char comando[10];
+        scanf("%s", comando);
+
+        if (strcmp(comando, "verde") == 0) {
+            ligar_led(LED_VERDE);
+        } else if (strcmp(comando, "azul") == 0) {
+            ligar_led(LED_AZUL);
+        } else if (strcmp(comando, "vermelho") == 0) {
+            ligar_led(LED_VERMELHO);
+        } else if (strcmp(comando, "branco") == 0) {
+            ligar_led_branco();
+        } else if (strcmp(comando, "desligar") == 0) {
+            desligar_leds();
+        } else if (strcmp(comando, "buzzer") == 0) {
+            acionar_buzzer();
+        } else if (strcmp(comando, "sair") == 0) {
+            break;
+        }
+    }
+
+    return 0;
+}
